@@ -1,0 +1,74 @@
+{
+  "stats": [
+    {
+      "type": 0,
+      "maxHp": 50,
+      "hp": 50,
+      "attack": 4,
+      "attackDelay": 0.4,
+      "attackRange": 10,
+      "size": 1,
+      "price": 10
+    },
+    {
+      "type": 1,
+      "maxHp": 100,
+      "hp": 100,
+      "attack": 6,
+      "attackDelay": 0.6,
+      "attackRange": 5,
+      "size": 2,
+      "price": 30
+    },
+    {
+      "type": 2,
+      "maxHp": 80,
+      "hp": 80,
+      "attack": 8,
+      "attackDelay": 1.75,
+      "attackRange": 10,
+      "size": 1,
+      "price": 50
+    },
+    {
+      "type": 3,
+      "maxHp": 30,
+      "hp": 30,
+      "attack": 0,
+      "attackDelay": 0,
+      "attackRange": 0,
+      "size": 2,
+      "price": 100
+    },
+    {
+      "type": 4,
+      "maxHp": 200,
+      "hp": 200,
+      "attack": 0,
+      "attackDelay": 0,
+      "attackRange": 0,
+      "size": 2,
+      "price": 80
+    },
+    {
+      "type": 5,
+      "maxHp": 500,
+      "hp": 500,
+      "attack": 0,
+      "attackDelay": 0,
+      "attackRange": 0,
+      "size": 2,
+      "price": 0
+    },
+    {
+      "type": 6,
+      "maxHp": 700,
+      "hp": 700,
+      "attack": 0,
+      "attackDelay": 0,
+      "attackRange": 0,
+      "size": 2,
+      "price": 0
+    }
+  ]
+}

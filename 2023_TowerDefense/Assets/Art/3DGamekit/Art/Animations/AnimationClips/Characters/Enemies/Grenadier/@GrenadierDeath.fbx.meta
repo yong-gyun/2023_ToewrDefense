@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: 62239e3dec98bac458699c7c16f72619
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: GrenadierDeath
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: GrenadierDeath
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: OnDead
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.59999996
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: '@GrenadierDeath(Clone)'
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GrenadierMesh
+      parentName: '@GrenadierDeath(Clone)'
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GrenadierSkeleton
+      parentName: '@GrenadierDeath(Clone)'
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grenadier_Root
+      parentName: GrenadierSkeleton
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grenadier_Hips
+      parentName: Grenadier_Root
+      position: {x: -0.00000020116568, y: 1.2411325, z: -0.19745319}
+      rotation: {x: -0.040366296, y: -0.0403663, z: -0.70595366, w: 0.70595366}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Grenadier_Sphere
+      parentName: Grenadier_Hips
+      position: {x: -0.6195468, y: -0.007586231, z: 0.0017647995}
+      rotation: {x: 0.000042304397, y: -0.11541283, z: 0.0007398934, w: 0.9933174}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: Grenadier_LeftHornArmor
+      parentName: Grenadier_Sphere
+      position: {x: -0.53656834, y: -0.44535023, z: -0.004245494}
+      rotation: {x: -0.00000000566181, y: 0.000000048428767, z: 0.0000000011324028, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: Grenadier_LeftHornArmorEnd
+      parentName: Grenadier_LeftHornArmor
+      position: {x: -2.3070455, y: 1.4210854e-16, z: 5.32907e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grenadier_LeftChestArmor
+      parentName: Grenadier_Sphere
+      position: {x: 0.041177735, y: -0.5144288, z: 0.52518106}
+      rotation: {x: -0.2543948, y: -0.54481727, z: 0.23770152, w: -0.76285994}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: Grenadier_LeftChestArmorEnd
+      parentName: Grenadier_LeftChestArmor
+      position: {x: -0.73499763, y: -5.684342e-16, z: -8.5265126e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grenadier_EyeArmor
+      parentName: Grenadier_Sphere
+      position: {x: -0.4367563, y: -0.0016488285, z: 0.61351275}
+      rotation: {x: 0.0000024439364, y: 0.707108, z: 0.0000024522453, w: 0.7071056}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Grenadier_EyeArmorEnd
+      parentName: Grenadier_EyeArmor
+      position: {x: -0.6230658, y: -6.310887e-32, z: -2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grenadier_HelmetArmor
+      parentName: Grenadier_Sphere
+      position: {x: -0.91617095, y: 0.0042989315, z: 0.99732596}
+      rotation: {x: -0.00095903804, y: 0.3769535, z: -0.0004472198, w: 0.9262316}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: Grenadier_HelmetArmorEnd
+      parentName: Grenadier_HelmetArmor
+      position: {x: -0.58135945, y: -1.5099033e-16, z: -5.684342e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grenadier_RightShoulder
+      parentName: Grenadier_Sphere
+      position: {x: -0.11763673, y: 0.379682, z: 0.19522996}
+      rotation: {x: 0.81227744, y: 0.58327127, z: -0.0000014126363, w: -0.0000010095536}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000002}
+    - name: Grenadier_RightUpperArm
+      parentName: Grenadier_RightShoulder
+      position: {x: 0.4968178, y: 0.00000251482, z: 3.7747583e-17}
+      rotation: {x: 0.0000023321213, y: -0.000002837909, z: -0.16193187, w: 0.986802}
+      scale: {x: 1, y: 1.0000005, z: 1.0000006}
+    - name: Grenadier_RightArm
+      parentName: Grenadier_RightUpperArm
+      position: {x: 0.5718607, y: -0.0000000067134556, z: 0.00000007899927}
+      rotation: {x: -2.2737368e-13, y: 0.000007112281, z: 0.000000029792574, w: 1}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.9999997}
+    - name: Grenadier_RightHand
+      parentName: Grenadier_RightArm
+      position: {x: 0.38759333, y: 0.0000000011122782, z: 0.00000076637883}
+      rotation: {x: -0.000002750082, y: -0.0000046783002, z: -9.832134e-12, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Grenadier_RightHandEnd
+      parentName: Grenadier_RightHand
+      position: {x: 0.32631, y: 5.684342e-16, z: -1.8056333e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grenadier_RightThumb
+      parentName: Grenadier_RightHand
+      position: {x: 0.06874, y: 0.0897, z: 0.014770195}
+      rotation: {x: 0.0000000142545105, y: 0.000000046224613, z: 0.44647673, w: 0.8947953}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: Grenadier_RightThumbEnd
+      parentName: Grenadier_RightThumb
+      position: {x: 0.15982021, y: 0.0000032948883, z: -3.4458645e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grenadier_RightHornArmor
+      parentName: Grenadier_Sphere
+      position: {x: -0.50251573, y: 0.47993279, z: 0.020580912}
+      rotation: {x: -8.6551766e-10, y: 1, z: -0.000000003780863, w: -0.0000000372529}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000006}
+    - name: Grenadier_RightHornArmorEnd
+      parentName: Grenadier_RightHornArmor
+      position: {x: 2.30705, y: 4.2632563e-16, z: 0.0000000500953}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grenadier_RightChestArmor
+      parentName: Grenadier_Sphere
+      position: {x: 0.08576153, y: 0.40924078, z: 0.55633175}
+      rotation: {x: 0.2377015, y: -0.76285994, z: 0.25439483, w: 0.54481727}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000002}
+    - name: Grenadier_RightChestArmorEnd
+      parentName: Grenadier_RightChestArmor
+      position: {x: 0.7349946, y: -0.00000005638809, z: 0.0000015399401}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grenadier_LeftShoulder
+      parentName: Grenadier_Sphere
+      position: {x: -0.14337821, y: -0.38071766, z: 0.17486235}
+      rotation: {x: 0.0000014033496, y: 0.0000010170041, z: 0.81227744, w: 0.58327127}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Grenadier_LeftUpperArm
+      parentName: Grenadier_LeftShoulder
+      position: {x: -0.49681723, y: -5.684342e-16, z: 4.8849813e-17}
+      rotation: {x: 0.0000008779725, y: -0.00000027358118, z: -0.16193208, w: 0.9868019}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: Grenadier_LeftArm
+      parentName: Grenadier_LeftUpperArm
+      position: {x: -0.57200325, y: 0.00000036533623, z: -0.00000003189119}
+      rotation: {x: -0.00000066381295, y: 0.00000045834952, z: 0.0000011026856, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: Grenadier_LeftHand
+      parentName: Grenadier_LeftArm
+      position: {x: -0.3874504, y: 0.00000054646125, z: -0.00000002065975}
+      rotation: {x: -0.000004933815, y: -0.0000003661457, z: 0.00000041722944, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: Grenadier_LeftHandEnd
+      parentName: Grenadier_LeftHand
+      position: {x: -0.32630995, y: -0.0000005794685, z: -0.000000024959567}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grenadier_LeftThumb
+      parentName: Grenadier_LeftHand
+      position: {x: -0.06874115, y: -0.089706495, z: -0.0147702}
+      rotation: {x: -0.00000003430614, y: 0.00000003168242, z: 0.4464767, w: 0.8947953}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: Grenadier_LeftThumbEnd
+      parentName: Grenadier_LeftThumb
+      position: {x: -0.1598176, y: 0, z: -2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grenadier_LeftUpperLeg
+      parentName: Grenadier_Hips
+      position: {x: 0.082454585, y: -0.4587256, z: 0.038890876}
+      rotation: {x: 0.057086416, y: -0.00000013783574, z: 0.9983692, w: -0.0000024480894}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: Grenadier_LeftLowerLeg
+      parentName: Grenadier_LeftUpperLeg
+      position: {x: -0.5828861, y: 0, z: 3.375078e-16}
+      rotation: {x: 0.0000013326131, y: -0.00000039115875, z: -0.00000067622454, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: Grenadier_LeftFoot
+      parentName: Grenadier_LeftLowerLeg
+      position: {x: -0.446891, y: 0.00000087675613, z: -0.000000037594745}
+      rotation: {x: -0.000018144357, y: 0.00000002610912, z: -0.000000107398336, w: 1}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1}
+    - name: Grenadier_LeftFootEnd
+      parentName: Grenadier_LeftFoot
+      position: {x: -0.22686486, y: -0.000000034202543, z: 0.000000037590084}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grenadier_RightUpperLeg
+      parentName: Grenadier_Hips
+      position: {x: 0.0824537, y: 0.458726, z: 0.03889098}
+      rotation: {x: -0.9983692, y: 0.0000020636705, z: 0.0570864, w: 0.00000029988587}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Grenadier_RightLowerLeg
+      parentName: Grenadier_RightUpperLeg
+      position: {x: 0.582887, y: 0.0000001206743, z: 0.000000040075715}
+      rotation: {x: 0.0000011388747, y: -0.00000042096, z: 0.0000003077564, w: 1}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000006}
+    - name: Grenadier_RightFoot
+      parentName: Grenadier_RightLowerLeg
+      position: {x: 0.44689098, y: -0.00000060662194, z: -1.1877317e-11}
+      rotation: {x: 0.000048734717, y: 0.00000015262877, z: 0.0000040648974, w: -1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000005}
+    - name: Grenadier_RightFootEnd
+      parentName: Grenadier_RightFoot
+      position: {x: 0.22686486, y: 0.00000018439604, z: -0.0000000015309362}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: GrenadierSkeleton
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
